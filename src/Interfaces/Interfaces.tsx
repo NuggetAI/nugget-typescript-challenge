@@ -16,3 +16,9 @@ export interface IButtonProps {
 }
 
 export interface IJobsProps {}
+
+export interface IStatus {
+  label: string;
+  color: string;
+  id: number;
+}
