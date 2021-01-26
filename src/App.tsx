@@ -1,10 +1,11 @@
 import React from 'react'
 import './App.css'
-import { Job } from './container/Jobs'
+import { StatusButton } from './components/StatusButton'
+
 function App() {
   return (
     <div className="App">
-      <Job />
+      <StatusButton />
     </div>
   )
 }
